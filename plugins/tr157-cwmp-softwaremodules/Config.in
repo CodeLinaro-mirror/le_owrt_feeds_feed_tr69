@@ -1,0 +1,20 @@
+config PACKAGE_tr157-cwmp-softwaremodules
+    tristate
+    select SAH_SERVICES_TR157_CWMP_SOFTWAREMODULES
+
+if PACKAGE_tr157-cwmp-softwaremodules
+
+menu "Select tr157-cwmp-softwaremodules build options"
+    depends on PACKAGE_tr157-cwmp-softwaremodules
+
+config SAH_SERVICES_TR157_CWMP_SOFTWAREMODULES
+    bool "Build the tr157-cwmp-softwaremodules"
+    default n
+
+config SAH_SERVICES_TR157_CWMP_SOFTWAREMODULES_DUMMY_CONTROLLER
+    bool "Build the dummy controller (implementation example)"
+    default y
+
+endmenu
+
+endif
