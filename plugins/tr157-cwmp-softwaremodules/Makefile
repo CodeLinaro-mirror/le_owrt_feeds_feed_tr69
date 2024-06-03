@@ -2,11 +2,11 @@ include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=tr157-cwmp-softwaremodules
-PKG_VERSION:=v0.1.9
+PKG_VERSION:=v0.1.10
 SHORT_DESCRIPTION:=tr157-cwmp-softwaremodules
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.1.9
+PKG_SOURCE_VERSION:=v0.1.10
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/tr157-cwmp-softwaremodules.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
