@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libtr69-engine
-PKG_VERSION:=sah-next_v0.10.3
+PKG_VERSION:=sah-next_v0.10.4
 SHORT_DESCRIPTION:=libraries to define and implement the ACS RPCs methods and data parser
 
-PKG_SOURCE:=libtr69-engine-sah-next_v0.10.3.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libtr69-engine/-/archive/sah-next_v0.10.3
-PKG_HASH:=b9dfc0184c8ddd502bf2013e3bfdd33eedfc5d4825765c61e0d1d3a0624dbe06
-PKG_BUILD_DIR:=$(BUILD_DIR)/libtr69-engine-sah-next_v0.10.3
+PKG_SOURCE:=libtr69-engine-sah-next_v0.10.4.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libtr69-engine/-/archive/sah-next_v0.10.4
+PKG_HASH:=b1c7eacfc337edf28f44c389a42b38ea56105299d88317608742ab3ba90d5f29
+PKG_BUILD_DIR:=$(BUILD_DIR)/libtr69-engine-sah-next_v0.10.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=Apache-2.0
 PKG_LICENSE_FILES:=LICENSE
