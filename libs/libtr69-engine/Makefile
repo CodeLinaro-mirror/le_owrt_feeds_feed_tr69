@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/libraries/libtr69-engine/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libtr69-engine
-PKG_VERSION:=sah-next_v0.10.4
+PKG_VERSION:=sah-next_v0.10.5
 SHORT_DESCRIPTION:=libraries to define and implement the ACS RPCs methods and data parser
 
-PKG_SOURCE:=libtr69-engine-sah-next_v0.10.4.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libtr69-engine/-/archive/sah-next_v0.10.4
-PKG_HASH:=b1c7eacfc337edf28f44c389a42b38ea56105299d88317608742ab3ba90d5f29
-PKG_BUILD_DIR:=$(BUILD_DIR)/libtr69-engine-sah-next_v0.10.4
+PKG_SOURCE:=libtr69-engine-sah-next_v0.10.5.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libtr69-engine/-/archive/sah-next_v0.10.5
+PKG_HASH:=cfc702fc254ee7c8a487abb1d326309729fe2737bade588240b327c2d788ba68
+PKG_BUILD_DIR:=$(BUILD_DIR)/libtr69-engine-sah-next_v0.10.5
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=Apache-2.0
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Libraries
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libtr69-engine
   DEPENDS += +libamxc
