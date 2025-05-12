@@ -8,7 +8,7 @@ SHORT_DESCRIPTION:=libraries to define and implement the ACS RPCs methods and da
 
 PKG_SOURCE:=libtr69-engine-sah-next_v0.10.8.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libtr69-engine/-/archive/sah-next_v0.10.8
-PKG_HASH:=skip
+PKG_HASH:=00c205f266ef43001308dfd8348339264190a3469b8d6a46f4b154b6a240561f
 PKG_BUILD_DIR:=$(BUILD_DIR)/libtr69-engine-sah-next_v0.10.8
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=Apache-2.0
