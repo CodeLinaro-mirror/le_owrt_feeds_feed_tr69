@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr069-manager
-PKG_VERSION:=sah-next_v1.39.2
+PKG_VERSION:=sah-next_v1.39.3
 SHORT_DESCRIPTION:=TR069 Manager
 
-PKG_SOURCE:=tr069-manager-sah-next_v1.39.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr069-manager/-/archive/sah-next_v1.39.2
-PKG_HASH:=85c41a3bc2b7dcb71027bda8a92ce129f913bcfcc9fcb0d9d62c723915836e07
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr069-manager-sah-next_v1.39.2
+PKG_SOURCE:=tr069-manager-sah-next_v1.39.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr069-manager/-/archive/sah-next_v1.39.3
+PKG_HASH:=4230e095683d1bf10a620ae8cf5c25d3bae9f073eaaadecb24b2d26b3163481d
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr069-manager-sah-next_v1.39.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -47,7 +47,6 @@ define Package/$(PKG_NAME)
   DEPENDS += +uriparser
   DEPENDS += +libcares
   DEPENDS += +libnetmodel
-  DEPENDS += +libfiletransfer
   DEPENDS += +libgmap-client
   DEPENDS += +libxml2
   MENU:=1
