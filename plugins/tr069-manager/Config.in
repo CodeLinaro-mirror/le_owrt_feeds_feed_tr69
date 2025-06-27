@@ -19,10 +19,6 @@ config SAH_AMX_TR069_MANAGER_STOP_ORDER
     string "TR069 Manager shutdown order"
     default "02"
 
-config SAH_AMX_TR069_MANAGER_CERTIFICATE_NO_PEM
-    bool "Allow not to use any certificate"
-    default n
-
 config SAH_AMX_TR069_MANAGER_USE_GSDM
     bool "Use get_supported() instead of describe() "
     default n
