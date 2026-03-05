@@ -1,3 +1,5 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.1)
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr069-manager/-/blob/main/baf.yml instead
 config PACKAGE_tr069-manager
     tristate
     select SAH_AMX_TR069_MANAGER
