@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr069-manager/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr069-manager
-RAW_VERSION:=sah-next-4.1_v1.47.5
+RAW_VERSION:=sah-next-4.1_v1.48.0
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=TR069 Manager
 
-PKG_SOURCE:=tr069-manager-sah-next-4.1_v1.47.5.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr069-manager/-/archive/sah-next-4.1_v1.47.5
-PKG_HASH:=082a4b39157d8e7066acd49e0b57d1bce97fde457068617beee98f06f9decef4
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr069-manager-sah-next-4.1_v1.47.5
+PKG_SOURCE:=tr069-manager-sah-next-4.1_v1.48.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr069-manager/-/archive/sah-next-4.1_v1.48.0
+PKG_HASH:=3036405b1040b26b83d646fe60354537d50af0606fef4cee5044b50c6add54d7
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr069-manager-sah-next-4.1_v1.48.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
