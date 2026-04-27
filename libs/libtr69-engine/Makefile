@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version v2.40.3)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/libraries/libtr69-engine/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libtr69-engine
-RAW_VERSION:=sah-next-4.1_v0.4.0
+RAW_VERSION:=sah-next-4.1-lts_v0.4.0
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=libraries to define and implement the ACS RPCs methods and data parser
 
-PKG_SOURCE:=libtr69-engine-sah-next-4.1_v0.4.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libtr69-engine/-/archive/sah-next-4.1_v0.4.0
-PKG_HASH:=f330e3d8305b119a2949d10168990007329e9a48fead9938fa402d5f1b6aec09
-PKG_BUILD_DIR:=$(BUILD_DIR)/libtr69-engine-sah-next-4.1_v0.4.0
+PKG_SOURCE:=libtr69-engine-sah-next-4.1-lts_v0.4.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libtr69-engine/-/archive/sah-next-4.1-lts_v0.4.0
+PKG_HASH:=d97cc3d426a430de9086cecddde9adace6889c0485898a904404ce1ff79bf5aa
+PKG_BUILD_DIR:=$(BUILD_DIR)/libtr69-engine-sah-next-4.1-lts_v0.4.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=Apache-2.0
 PKG_LICENSE_FILES:=LICENSE
